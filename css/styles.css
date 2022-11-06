@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: "DancingScript";
+    src: url('../assets/fonts/Dancing\Script.ttf');
+}
+body{
+    background-color: rgb(238, 228, 238);
+    background-image: url("../assets/images/lila.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0.5em auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+
+#display {
+    border: 0.5px solid #21053e75;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background-color: #d6cdef5d;
+}
+
+.buttons {
+  display: grid;
+  color: rgb(13, 13, 13);
+  background-color: rgb(220, 177, 220);
+  border-bottom: 1px solid rgb(127, 56, 162); 
+  border-left: 1px solid rgb(127, 56, 162);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/*no colisions i borders*/
+.buttons > div {
+    border-top: 1px solid  rgb(127, 56, 162);
+    border-right: 1px solid rgb(127, 56, 162);
+}
+
+/*nicer buttons*/
+.button {
+    border: 0.2px solid  rgb(162, 56, 128);/*aplica una linea mas gruesa a cada div*/
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: #5555ff;
+    color: rgb(245, 248, 240);
+}
+
+.button:hover {
+    background-color: #21053e;
+    color: rgb(171, 207, 53);
+    transition: 0.5s ease-in-out;
+}
+
+.footer {
+    margin-left: 85%;
+    text-align: right;
+    color: aliceblue;
+}
+
+p {
+    text-align: center;
+    font-family: "DancingScript";
+}
