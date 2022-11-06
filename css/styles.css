@@ -41,13 +41,11 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-/*no colisions i borders*/
+/*no border rep*/
 .buttons > div {
     border-top: 1px solid  rgb(127, 56, 162);
     border-right: 1px solid rgb(127, 56, 162);
 }
-
-/*nicer buttons*/
 .button {
     border: 0.2px solid  rgb(162, 56, 128);/*aplica una linea mas gruesa a cada div*/
     line-height: 100px;
